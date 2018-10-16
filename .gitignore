@@ -1,0 +1,13 @@
+.idea
+
+node_modules
+dist
+dist-server
+
+yarn-error.log
+
+prerender.js
+prerender.js
+.DS_Store
+static/
+dist-server

@@ -1,0 +1,51 @@
+<div class="panel-header panel-header-sm">
+</div>
+<div class="main-content">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card ">
+        <div class="card-header ">
+          List of patients
+        </div>
+        <div class="card-body ">
+          <div class="content">
+            <div class="row">
+<!--             <div class="col-md-12 header" style="padding:30px;">
+                <input type="text" name="" class="video-search" placeholder="Search a video">       
+              </div> -->
+              <div class="col-md-12 card" style="padding:30px;">
+                <table class="table borderless">
+
+                  <tr class="heading">
+                    <th>Patient ID</th>
+                    <th>Patient Name</th>
+                    <th>Concern</th>
+                  </tr>
+                  <tr>
+                    <td>1001</td>
+                    <td>Ashish Sharma</td>
+                    <td>Skin Concern</td>
+                  </tr>
+                  <tr>
+                    <td>1002</td>
+                    <td>Hemant Choudhary</td>
+                    <td>Eyes Concern</td>
+                  </tr>
+<!--                     <tr *ngFor="let item of videos">
+                        <td><img [src]=" imageUrl + item.image_id" (error)="onError($event)" style="width: 75px;height: 75px"></td>
+                        <td><a href="{{item.link}}" target="blank">{{item.title}}</a></td>
+                        <td>{{item.views}}</td>
+                        <td>{{item.description}}</td>
+                        <td>
+                            <button class="btn" [routerLink]="['/addvideo/' + item.id]" (click)="editDetails(item.id)">Edit</button>
+                        </td>
+                      </tr> -->
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
